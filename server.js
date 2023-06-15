@@ -18,7 +18,6 @@ db.once("open",()=>{
     console.log("Connected to mongo DB")
 })
 
-
 require("./routes/ticketNotifaction.route")(app)
 
 app.listen(serverCofig.PORT,()=>{
